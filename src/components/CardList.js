@@ -5,6 +5,7 @@ const CardList = ({robots}) => {
     if (true) {
         throw new Error("Noooooo! Something went wrong!");
     }
+    
     return (
     <div className="tc">
             {robots.map((user, i) => {
